@@ -1,0 +1,159 @@
+.cardDiv {
+  display: flex;
+}
+
+/* 첫번째 카드 타입 */
+.cardType1 {
+  position: relative;
+  width: 288px;
+  height: 348px;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.cardImg img {
+  top: 0;
+  left: 0;
+  width: 288px;
+  height: 196px;
+  object-fit: cover;
+}
+
+.readText {
+  text-decoration: underline;
+}
+
+.textBox1 {
+  position: relative;
+  width: 256px;
+  height: 116px;
+  left: 16px;
+  top: 20px;
+  line-height: 20px;
+}
+
+.cardTitle {
+  font-size: 16px;
+  margin: 0;
+}
+
+.textBox1 p {
+  color: #5a6a72;
+  font-size: 12px;
+}
+
+/* card1 read 텍스트 속성 */
+.readText {
+  color: #29363d;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 5px;
+}
+
+/* 두번째 카드 타입 */
+.cardType2 {
+  position: relative;
+  width: 288px;
+  height: 374px;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow: hidden;
+}
+
+/* 상단 사용자 프로필 사진 및 게시글 제목 표기 */
+.userProfile {
+  display: flex;
+  align-items: center;
+  margin: 16px 0px 12px 0px;
+}
+
+/* 프로필 사진 속성값 */
+.profileCardImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 15px;
+  border-radius: 100%;
+}
+
+/* "그것을 피가 청춘을 것이다", "secondary" 그룹 정렬 */
+.textGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+/* "secondary" 텍스트 속성 */
+.textGroup p {
+  font-size: 12px;
+  margin: 0;
+  color: gray;
+}
+
+/* Card2 본문내용 */
+.textBox2 {
+  position: relative;
+  width: 256px;
+  height: auto;
+  left: 16px;
+  top: 0px;
+  line-height: 20px;
+}
+
+.textBox2 p {
+  color: #5a6a72;
+  font-size: 12px;
+}
+
+.botomMenuBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  padding: 0 16px;
+  justify-content: space-between; /* 필요에 따라 공간을 분배 */
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.buttonDiv {
+  display: flex;
+  margin-right: 25px;
+  gap: 10px;
+}
+
+.botomMenuBar p {
+  color: #29363d;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.botomMenuBar button {
+  background: none; /* 배경 제거 */
+  border: none; /* 테두리 제거 */
+  padding: 0; /* 기본 패딩 제거 */
+  cursor: pointer; /* 클릭 가능한 커서 */
+}
+
+.botomMenuBar .heart {
+  background: url(./src/icon-heart.svg);
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+}
+
+.botomMenuBar .share {
+  background: url(./src/icon-share.svg);
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+}
+.botomMenuBar .more {
+  background: url(./src/icon-more.svg);
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+}
